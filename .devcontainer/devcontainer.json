@@ -1,0 +1,27 @@
+{
+	"name": "Haskell (prebuilt)",
+	"image": "dragontea/haskell-devcontainer:latest",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"haskell.haskell",
+				"phoityne.phoityne-vscode",
+				"justusadam.language-haskell",
+				"yzhang.markdown-all-in-one",
+				"DavidAnson.vscode-markdownlint"
+			],
+			"settings": {
+				"editor.formatOnSave": true,
+				// "haskell.formattingProvider": "stylish-haskell",
+				"haskell.manageHLS": "GHCup",
+				"haskell.toolchain": {
+					// "ghc": "latest",
+					// "cabal": "3.10.2.1",
+					// "stack": null,
+					// "hls": "recommended"
+				}
+			}
+		}
+	}
+}
